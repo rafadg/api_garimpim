@@ -1,0 +1,16 @@
+[
+    {
+        "id": 0,
+        "nome": "ouro",
+        "tipo": "mineral",
+        "preco": 10,
+        "url_imagem": "https://cdn.rafaeldantas.dev.br/gold-ingot.png"
+    },
+    {
+        "id": 0,
+        "nome": "ferro",
+        "tipo": "mineral",
+        "preco": 10,
+        "url_imagem": "https://cdn.rafaeldantas.dev.br/iron-ingot.png"
+    }
+]

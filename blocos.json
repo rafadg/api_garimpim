@@ -1,0 +1,50 @@
+[
+    {
+      "id_bloco": 0,
+      "nome": "Pedra comum",
+      "url_imagem": "https://cdn.rafaeldantas.dev.br/stone.jpeg",
+      "raridade": "Comum",
+      "custo": 1,
+      "segundos": 10
+    },
+    {
+      "id_bloco": 1,
+      "nome": "Pedra escura",
+      "url_imagem": "https://cdn.rafaeldantas.dev.br/blackstone.png",
+      "raridade": "Comum",
+      "custo": 2,
+      "segundos": 15
+    },
+    {
+      "id_bloco": 2,
+      "nome": "Andersite",
+      "url_imagem": "https://cdn.rafaeldantas.dev.br/andersite.png",
+      "raridade": "Comum",
+      "custo": 2,
+      "segundos": 5
+    },
+    {
+      "id_bloco": 3,
+      "nome": "Pedra profunda",
+      "url_imagem": "https://cdn.rafaeldantas.dev.br/deepslate.jpeg",
+      "raridade": "Comum",
+      "custo": 2,
+      "segundos": 30
+    },
+    {
+      "id_bloco": 4,
+      "nome": "Granito",
+      "url_imagem": "https://cdn.rafaeldantas.dev.br/granite.jpeg",
+      "raridade": "Comum",
+      "custo": 1,
+      "segundos": 15
+    },
+    {
+      "id_bloco": 5,
+      "nome": "Ouro",
+      "url_imagem": "https://cdn.rafaeldantas.dev.br/gold.png",
+      "raridade": "Raro",
+      "custo": 5,
+      "segundos": 120
+    }
+  ]

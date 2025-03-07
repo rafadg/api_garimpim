@@ -1,0 +1,29 @@
+[
+    {
+        "id": 0,
+        "nome": "Bioma rochoso superfície",
+        "camada": 1,
+        "blocos": [
+            {
+                "id_bloco": 0,
+                "nome": "Pedra Comum",
+                "peso": 20
+            },
+            {
+                "id_bloco": 4,
+                "nome": "Granito",
+                "peso": 10
+            },
+            {
+                "id_bloco": 2,
+                "nome": "Andersite",
+                "peso": 10
+            },
+            {
+                "id_bloco": 5,
+                "nome": "Ouro",
+                "peso": 1
+            }
+        ]
+    }
+]
