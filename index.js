@@ -18,20 +18,23 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/checar_status', (req, res) => {
+
+    const bloco = player.chunk[player.id_bloco_selecionado - 1];
+
     if (player.data_inicio, player.data_objetivo) {
         const segundos_restantes = segundosParaFinalizar(player.data_objetivo);
         if (new Date() >= player.data_objetivo) {
             //player.data_inicio = null;
             //player.data_objetivo = null;
             player.chunk[player.id_bloco_selecionado - 1].enabled = false;
-            res.json({ status: 'recompensa', nome: "barra de ouro", quantidade: 2, preco: 10 });
+            res.json({ status: 'recompensa', drops: bloco.drops});
         } else {
             res.json(
                 {
                     status: 'minerando',
                     data_inicio: player.data_inicio,
                     data_objetivo: player.data_objetivo,
-                    bloco: player.chunk[player.id_bloco_selecionado -1]
+                    bloco: bloco
                 });
         }
     } else {
