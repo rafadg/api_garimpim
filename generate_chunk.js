@@ -1,5 +1,6 @@
 import blocos from './blocos.json' with { type: 'json' };
 import biomas from './biomas.json' with { type: 'json'};
+import { calcularDrop } from './utils.js';
 
 export function gerarChunk () {
     const chunk = Array.from({length: 64}, (_, i) => {return {posicao: i + 1, ...gerarBloco(biomas[0])}});
@@ -24,7 +25,8 @@ export function gerarBloco(bioma) {
     for (const bloco of bioma.blocos) {
         acumulado += bloco.peso;
         if (random < acumulado) {
-            return {...blocos.find(x => x.id_bloco === bloco.id_bloco), enabled: true}; // Retorna o objeto bloco completo
+            const bloco_selecionado = blocos.find(x => x.id_bloco === bloco.id_bloco);
+            return {...bloco_selecionado, enabled: true, drops: calcularDrop(bloco_selecionado)}; // Retorna o objeto bloco completo
         }
     }
 

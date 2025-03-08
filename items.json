@@ -1,14 +1,14 @@
 [
     {
         "id": 0,
-        "nome": "ouro",
+        "nome": "Pedra fragmentada",
         "tipo": "mineral",
         "preco": 10,
         "url_imagem": "https://cdn.rafaeldantas.dev.br/gold-ingot.png"
     },
     {
-        "id": 0,
-        "nome": "ferro",
+        "id": 1,
+        "nome": "Ferro",
         "tipo": "mineral",
         "preco": 10,
         "url_imagem": "https://cdn.rafaeldantas.dev.br/iron-ingot.png"
