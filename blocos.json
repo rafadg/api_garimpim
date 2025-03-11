@@ -173,7 +173,7 @@
       },
       {
         "nome": "Rubi",
-        "id_item": 1,
+        "id_item": 2,
         "quantidade_minima": 1,
         "quantidade_maxima": 3,
         "probabilidade_base": 0.5,
