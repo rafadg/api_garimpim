@@ -161,7 +161,7 @@
     "url_imagem": "https://cdn.rafaeldantas.dev.br/ruby_block.png",
     "raridade": "Raro",
     "custo": 10,
-    "segundos": 140,
+    "segundos": 30,
     "drops": [
       {
         "nome": "Pedra fragmentada",
@@ -174,7 +174,7 @@
       {
         "nome": "Rubi",
         "id_item": 1,
-        "quantidade_minima": 0,
+        "quantidade_minima": 1,
         "quantidade_maxima": 3,
         "probabilidade_base": 0.5,
         "decaimento": 0.5

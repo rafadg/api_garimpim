@@ -4,7 +4,7 @@
         "nome": "Pedra fragmentada",
         "tipo": "mineral",
         "preco": 10,
-        "url_imagem": "https://cdn.rafaeldantas.dev.br/gold-ingot.png"
+        "url_imagem": "https://cdn.rafaeldantas.dev.br/stone_item.png"
     },
     {
         "id": 1,
