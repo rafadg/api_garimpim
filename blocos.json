@@ -158,7 +158,7 @@
   {
     "id_bloco": 6,
     "nome": "Rubi",
-    "url_imagem": "https://cdn.rafaeldantas.dev.br/ruby.png",
+    "url_imagem": "https://cdn.rafaeldantas.dev.br/ruby_block.png",
     "raridade": "Raro",
     "custo": 10,
     "segundos": 140,
