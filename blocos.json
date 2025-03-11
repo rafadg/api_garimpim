@@ -154,5 +154,31 @@
         "decaimento": 0.5
       }
     ]
+  },
+  {
+    "id_bloco": 6,
+    "nome": "Rubi",
+    "url_imagem": "https://cdn.rafaeldantas.dev.br/ruby.png",
+    "raridade": "Raro",
+    "custo": 10,
+    "segundos": 140,
+    "drops": [
+      {
+        "nome": "Pedra fragmentada",
+        "id_item": 0,
+        "quantidade_minima": 1,
+        "quantidade_maxima": 5,
+        "probabilidade_base": 1.0,
+        "decaimento": 0.5
+      },
+      {
+        "nome": "Rubi",
+        "id_item": 1,
+        "quantidade_minima": 0,
+        "quantidade_maxima": 3,
+        "probabilidade_base": 0.5,
+        "decaimento": 0.5
+      }
+    ]
   }
 ]

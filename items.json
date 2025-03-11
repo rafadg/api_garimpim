@@ -12,5 +12,12 @@
         "tipo": "mineral",
         "preco": 10,
         "url_imagem": "https://cdn.rafaeldantas.dev.br/iron-ingot.png"
+    },
+    {
+        "id": 2,
+        "nome": "Rubi",
+        "tipo": "mineral",
+        "preco": 10,
+        "url_imagem": "https://cdn.rafaeldantas.dev.br/ruby.png"
     }
 ]

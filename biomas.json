@@ -23,6 +23,11 @@
                 "id_bloco": 5,
                 "nome": "Ouro",
                 "peso": 1
+            },
+            {
+                "id_bloco": 6,
+                "nome": "Rubi",
+                "peso": 1
             }
         ]
     }
